@@ -13,7 +13,7 @@ GEO (generative engine optimization) is SEO for AI answers. ChatGPT, Gemini, Cop
 1. Write one page by hand. Pick the search that matters most to your business, often "{competitor} alternative", and write the best page on the internet for it yourself. That page is your template.
 2. Let agents fill in the blanks across the rest. Turn your page into a brief with blanks for the vendor, the facts and the sources, and let agents fill it in for the next competitors and topics ([comparison brief](templates/comparison-brief.md), [guide brief](templates/guide-brief.md)).
 3. Turn every step into a skill: research, brief, write, QA, ship, index, refresh, outreach, learn. A skill is a short manual your agent follows the same way every time.
-4. Fine-tune the skills on the first pages. When a page comes out wrong, fix the skill, not the page, and run it again. Keep going until you trust it.
+4. Fine-tune the skills on the first pages. When a page comes out wrong, put the fix into the skill and run it again. Keep going until you trust it.
 5. Put it on a loop against a reward file. [goal.json](templates/goal.json) holds the six numbers you want to move. A daily run reads Search Console, starts one agent per lane and records every change as an experiment, read at 7, 14 and 28 days.
 
 ## What you get
