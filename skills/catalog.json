@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "name": "seo-daily",
+      "description": "Run the daily SEO and GEO loop. Pull Search Console (free) into a dated report (goal scoreboard, experiment readings, ranked actions, page-two refresh queue), then act as an orchestrator that reads context/STRATEGY.md and starts up to five lane agents (page-two refreshes, indexing and links, new content, outreach prep), each shipping one measured change recorded as an experiment and read at 7, 14 and 28 days. Use for the scheduled run, when asked how organic search or AI answers are doing or what to improve next, or to set up, pause or debug the loop.",
+      "path": "skills/seo-daily/SKILL.md"
+    },
+    {
+      "name": "seo-keyword-research",
+      "description": "Find the next search pages worth writing. Start from your own first-party material, run a capped keyword and SERP pass, score each cluster for fit, de-duplicate against existing pages and briefs, and write one brief per page into context/briefs/. Use weekly, or when asked what to write next or for keyword research.",
+      "path": "skills/seo-keyword-research/SKILL.md"
+    },
+    {
+      "name": "seo-content-writer",
+      "description": "Write one search page from a ready brief in context/briefs/, plain and sourced, hand it to an independent seo-content-qa subagent and fix it until it passes, then ship it as a draft that waits for a human read before it goes live. Use to pick up a brief or to rewrite a page QA failed.",
+      "path": "skills/seo-content-writer/SKILL.md"
+    },
+    {
+      "name": "seo-content-qa",
+      "description": "Independent pre-publish gate for one search page. Checks reading level, AI-sounding prose, SEO, every claim against its source, images, links and calls to action, scores eight areas out of 40 and returns PASS or FAIL with exact fixes. Run as a separate agent after seo-content-writer or seo-content-refresh, on any page before a person reviews it, or to audit a published page.",
+      "path": "skills/seo-content-qa/SKILL.md"
+    },
+    {
+      "name": "seo-content-refresh",
+      "description": "Refresh one live page for the queries Google already ranks it 11 to 20 for, by adding or rewriting a section that answers them, then pass independent QA, ship and record a refresh experiment. Use for the page-two lane of the daily loop, or when asked to refresh a page for its page-two keywords.",
+      "path": "skills/seo-content-refresh/SKILL.md"
+    },
+    {
+      "name": "request-indexing",
+      "description": "Get new or changed money pages crawled. Builds a free queue from your sitemap and the URL Inspection API, clicks Search Console's Request indexing in the author's own signed-in browser (about 10 a day), pushes the same pages to Bing through IndexNow, submits them on Brave's public form, and records every request. Use after a release ships new or rewritten pages, or when asked to get pages indexed.",
+      "path": "skills/request-indexing/SKILL.md"
+    },
+    {
+      "name": "seo-outbound-prep",
+      "description": "Prepare off-page SEO and GEO outreach, tier by tier as context/STRATEGY.md orders it (lists that rank, corrections, journalist requests, credit and broken-link requests, competitor-linked resources, vendor stories, directories). Pick the independent pages that rank for your money keywords or that AI answers cite, verify each page and its public contact path for free, and write a send-ready pack (the ask, your page, the pitch and one follow-up). Drafts only, a person sends. Use for outreach prep, a new batch, or recording a reply or a won placement.",
+      "path": "skills/seo-outbound-prep/SKILL.md"
+    }
+  ]
+}

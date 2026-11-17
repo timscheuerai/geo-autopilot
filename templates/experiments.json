@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "example": true,
+    "date": "2026-01-12",
+    "page": "https://www.example.com/alternatives/acme",
+    "query": null,
+    "kind": "refresh",
+    "change": "Fictional example, delete it. Added the section 'How much does Acme cost for a team of five?' with a worked cost table, for the page-two queries 'acme pricing for teams' (14.2) and 'acme cost per user' (17.8). Every Acme price rechecked on Acme's own pricing page on 2026-01-12. Independent QA PASS 35/40, grade 7.1.",
+    "sha": "0000000000000000000000000000000000000000",
+    "pr": "https://github.com/your-org/your-site/pull/123",
+    "live": "2026-01-13",
+    "crawled": "2026-01-15",
+    "baseline": {
+      "window": { "start": "2025-12-12", "end": "2026-01-08" },
+      "clicks": 3,
+      "impressions": 410,
+      "ctr": 0.0073,
+      "position": 13.6
+    },
+    "reading": {
+      "read": "2026-01-29",
+      "windows": {
+        "before": { "start": "2025-12-30", "end": "2026-01-12" },
+        "after": { "start": "2026-01-15", "end": "2026-01-28" }
+      },
+      "before": { "clicks": 1, "impressions": 196, "ctr": 0.0051, "position": 13.9 },
+      "after": { "clicks": 6, "impressions": 342, "ctr": 0.0175, "position": 9.8 },
+      "early": false,
+      "final": false,
+      "verdict": "better"
+    }
+  }
+]

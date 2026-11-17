@@ -1,0 +1,19 @@
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+
+# credentials never ship
+*service-account*.json
+*credentials*.json
+client_secrets.json
+token.json
+
+# private notes you do not want in your own copy's history
+context/private/
+
+# local private-term list for scripts/check-template.py
+scripts/private-terms.txt

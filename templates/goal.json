@@ -1,0 +1,62 @@
+{
+  "statement": "Your company is found for category searches and named in AI answers, not only for its own name",
+  "status": "proposed",
+  "proposed": "YYYY-MM-DD",
+  "confirmed": null,
+  "metrics": [
+    {
+      "id": "ai_answers_naming_us",
+      "label": "AI answers naming us (weekly fixed prompt set: ChatGPT search, Google AI Mode, AI Overviews)",
+      "source": "context/ai/<date>.json",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": null,
+      "targetDate": "YYYY-MM-DD"
+    },
+    {
+      "id": "nonbrand_clicks",
+      "label": "Non-brand Google clicks, last 28 days",
+      "source": "Search Console, brand regex from STRATEGY.md",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": null,
+      "targetDate": "YYYY-MM-DD"
+    },
+    {
+      "id": "nonbrand_impressions",
+      "label": "Non-brand Google impressions, last 28 days",
+      "source": "Search Console, brand regex from STRATEGY.md",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": null,
+      "targetDate": "YYYY-MM-DD"
+    },
+    {
+      "id": "bing_impressions",
+      "label": "Bing impressions, last 28 days",
+      "source": "Bing Webmaster Tools API",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": null,
+      "targetDate": "YYYY-MM-DD"
+    },
+    {
+      "id": "keywords_in_top_10",
+      "label": "Target keywords in Google's top 10",
+      "source": "Search Console average position per target keyword, last 28 days",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": null,
+      "targetDate": "YYYY-MM-DD"
+    },
+    {
+      "id": "money_pages_indexed",
+      "label": "Money pages indexed (%)",
+      "source": "URL Inspection API over the money pages in STRATEGY.md",
+      "baseline": null,
+      "baselineDate": "YYYY-MM-DD",
+      "target": 100,
+      "targetDate": "YYYY-MM-DD"
+    }
+  ]
+}
